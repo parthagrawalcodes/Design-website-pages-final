@@ -30,22 +30,22 @@ export function Navbar({ active }: NavbarProps) {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-400 ${scrolled
-          ? "bg-ivory/92 backdrop-blur-2xl shadow-[0_1px_24px_rgba(107,23,54,0.07)]"
-          : "bg-transparent"
+        ? "bg-ivory/92 backdrop-blur-2xl shadow-[0_1px_24px_rgba(107,23,54,0.07)]"
+        : "bg-transparent"
         }`}
     >
       <div className="max-w-7xl mx-auto px-5 lg:px-8 py-4 flex items-center justify-between">
         {/* Logo */}
         <button onClick={() => go("home")} className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl flex items-center justify-center text-[13px] font-bold border border-gold/40 gradient-gold text-warm-white font-serif tracking-wide">
-            AC
+          <div className="w-10 h-10 rounded-xl flex items-center justify-center text-[15px] font-bold border border-gold/40 gradient-gold text-warm-white font-serif tracking-wide">
+            A
           </div>
           <div className="text-left">
-            <div className="font-bold text-[15px] leading-tight tracking-tight font-serif text-brand-dark">
-              AGRAWAL CARE
+            <div className="font-bold text-[15px] leading-tight tracking-tight font-serif text-burgundy">
+              AGRAWAL
             </div>
             <div className="text-[10px] tracking-widest uppercase text-gold">
-              Surgery &amp; Maternity Centre
+              Surgery &amp; Maternity Care
             </div>
           </div>
         </button>

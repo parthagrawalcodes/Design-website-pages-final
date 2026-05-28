@@ -24,15 +24,15 @@ export function Footer() {
           {/* Brand */}
           <motion.div variants={fadeInUp}>
             <div className="flex items-center gap-3 mb-5">
-              <div className="w-10 h-10 rounded-xl flex items-center justify-center text-[13px] font-bold border border-gold/30 gradient-gold text-warm-white font-serif">
-                AC
+              <div className="w-10 h-10 rounded-xl flex items-center justify-center text-[15px] font-bold border border-gold/30 gradient-gold text-warm-white font-serif">
+                A
               </div>
               <div>
                 <div className="font-bold text-[15px] leading-tight font-serif text-champagne">
-                  AGRAWAL CARE
+                  AGRAWAL
                 </div>
                 <div className="text-[10px] tracking-widest uppercase text-gold/60">
-                  Surgery &amp; Maternity
+                  Surgery &amp; Maternity Care
                 </div>
               </div>
             </div>
@@ -117,7 +117,7 @@ export function Footer() {
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-champagne/28">
-            © 2024 Agrawal Care – Surgery &amp; Maternity Centre. All rights reserved.
+            © 2024 Agrawal Surgery &amp; Maternity Care. All rights reserved.
           </p>
           <div className="flex gap-5">
             {["Privacy Policy", "Terms & Conditions"].map((l) => (
